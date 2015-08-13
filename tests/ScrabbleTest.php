@@ -7,14 +7,16 @@
         {
             //Arrange
             $test_Scrabble = new Scrabble;
-            $word = "A";
+            $input = "A";
 
             //Act
-            $result = $test_Scrabble->scrabbleScore($word);
+            $result = $test_Scrabble->scrabbleScore($input);
 
             //Assert
             $this->assertEquals(1, $result);
         }
+
+        
 
     }
  ?>
