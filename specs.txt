@@ -8,7 +8,6 @@ Behavior= User inputs a different letter and gets a different single score
 Input = D
 Output = 2
 
-
 Behavior= User inputs multiple letters with the same score and gets correct score
 Input= FHVF
 Output= 16

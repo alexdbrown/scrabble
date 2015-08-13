@@ -16,7 +16,18 @@
             $this->assertEquals(1, $result);
         }
 
-        
+        function test_scrabbleScore_differentLetterValue()
+        {
+            //Arrange
+            $test_Scrabble = new Scrabble;
+            $input = "D";
+
+            //Act
+            $result = $test_Scrabble->scrabbleScore($input);
+
+            //Assert
+            $this->assertEquals(2, $result);
+        }
 
     }
  ?>
