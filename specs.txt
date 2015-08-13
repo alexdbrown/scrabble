@@ -9,7 +9,7 @@ Input = D
 Output = 2
 
 Behavior= User inputs multiple letters with the same score and gets correct score
-Input= FHVF
+Input= FhVf
 Output= 16
 
 Behavior= User inputs multiple letters with different scores and gets correct score

@@ -29,5 +29,19 @@
             $this->assertEquals(2, $result);
         }
 
+        function test_scrabbleScore_multipleLetterValue()
+        {
+            //Arrange
+            $test_Scrabble = new Scrabble;
+            $input = "FhVf";
+
+            //Act
+            $result = $test_Scrabble->scrabbleScore($input);
+
+            //Assert
+            $this->assertEquals(16, $result);
+        }
+
+
     }
  ?>
