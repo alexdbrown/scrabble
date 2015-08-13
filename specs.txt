@@ -1,0 +1,18 @@
+Scrabble Specs in Plain English
+
+Behavior= User inputs a single letter and gets single score
+Input= A
+Output= 1
+
+Behavior= User inputs a different letter and gets a different single score
+Input = D
+Output = 2
+
+
+Behavior= User inputs multiple letters with the same score and gets correct score
+Input= FHVF
+Output= 16
+
+Behavior= User inputs multiple letters with different scores and gets correct score
+Input= Apple
+Output= 9
