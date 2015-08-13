@@ -10,7 +10,7 @@
             // Lower case user word
             $word = strtolower($input);
 
-            if (!in_array($word, $new_dictionary)) {
+            if (!in_array($word, $new_dictionary) || ($input === "")) {
                 return "Sorry, that's not a real word. Nigel says try again.";
             } else {
 
