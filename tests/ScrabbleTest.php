@@ -42,6 +42,19 @@
             $this->assertEquals(16, $result);
         }
 
+        function test_scrabbleScore_differentMultipleLetterValue()
+        {
+            //Arrange
+            $test_Scrabble = new Scrabble;
+            $input = "AppLe";
+
+            //Act
+            $result = $test_Scrabble->scrabbleScore($input);
+
+            //Assert
+            $this->assertEquals(9, $result);
+        }
+
 
     }
  ?>

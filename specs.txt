@@ -13,5 +13,5 @@ Input= FhVf
 Output= 16
 
 Behavior= User inputs multiple letters with different scores and gets correct score
-Input= Apple
+Input= AppLe
 Output= 9

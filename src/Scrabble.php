@@ -15,7 +15,6 @@
             "m" => 3, "n" => 1, "o" => 1, "p" => 3, "q" => 10, "r" => 1, "s" => 1,
             "t" => 1, "u" => 1, "v" => 4, "w" => 4, "x" => 8, "y" => 4, "z" => 10);
 
-            // Create empty array
             $score = 0;
 
             foreach ($letters_in_array as $single_letter) {
